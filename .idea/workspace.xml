@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180b5be8-6ace-4213-ae57-741eff4dea38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Title/Title.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title/Title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageTrade/PageTrade.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageTrade/PageTrade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Trade/Trade.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Trade/Trade.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TradeHeader/TradeHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TradeHeader/TradeHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/User.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UsersList/UsersList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UsersList/UsersList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
+        <option value="JavaScript File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -52,10 +51,19 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Admin/Desktop/web/career/Компании/01.12.2022 Лотос -/lotos-trade-test",
     "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\web\career\Компании\01.12.2022 Лотос -\lotos-trade-test\src\components" />
+      <recent name="C:\Users\Admin\Desktop\web\career\Компании\01.12.2022 Лотос -\lotos-trade-test\src" />
+      <recent name="C:\Users\Admin\Desktop\web\career\Компании\01.12.2022 Лотос -\lotos-trade-test\src\components\App" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670476496319</updated>
-      <workItem from="1670476497704" duration="4453000" />
+      <workItem from="1670476497704" duration="5601000" />
+      <workItem from="1670498309762" duration="14279000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,35 @@
+@import '../../scss/mixins';
+
+.trade-header {
+  max-width: 450px;
+  width: 100%;
+}
+
+.trade-header__items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.trade-header__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  height: 40px;
+  box-sizing: border-box;
+  @include text-style('AGAvalancheC', 14px, 400, 1.25, #000);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  
+  &_title {
+    height: 80px;
+    align-items: center;
+    @include text-style('AGAvalancheC', 16px, 400, 1.25, #5567c5);
+    text-transform: uppercase;
+  }
+  
+  &_price {
+    height: 60px;
+  }
+}

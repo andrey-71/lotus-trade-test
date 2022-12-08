@@ -1,0 +1,59 @@
+@import '../../scss/mixins';
+
+.user {
+  padding: 0 20px;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+.user__items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user__item {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  height: 40px;
+  box-sizing: border-box;
+  @include text-style('AGAvalancheC', 14px, 400, 1.25, #000);
+  //white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  
+  &_title {
+    height: 80px;
+    @include text-style('AGAvalancheC', 16px, 400, 1.25, #5567c5);
+    text-transform: uppercase;
+  }
+  
+  &_price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+}
+
+.user__item-price {
+  color: #5567c5;
+  font-weight: 700;
+  
+  &:not(:last-child) {
+    padding-bottom: 2px;
+  }
+  
+  &_type_discount {
+    color: #c90000;
+  }
+  
+  &_type_total {
+    color: #206906;
+  }
+}

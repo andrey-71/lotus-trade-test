@@ -1,0 +1,15 @@
+@import '../../scss/mixins';
+
+.title {
+  border-bottom: 1px solid #000;
+  padding: 15px 10px;
+}
+
+.title__text {
+  @include text-style('AGAvalancheC', 24px, 400, 1.25, #c90000);
+  margin: 0;
+}
+
+.title__info {
+  font-weight: 700;
+}

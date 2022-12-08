@@ -1,0 +1,12 @@
+@import '../../scss/mixins';
+
+.page-trade {
+  padding: 15px;
+}
+
+.page-trade__notice {
+  margin: 0;
+  padding-bottom: 25px;
+  @include text-style('AGAvalancheC', 14px, 700, 1.25, #c90000);
+  letter-spacing: 1px;
+}
