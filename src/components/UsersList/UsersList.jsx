@@ -1,16 +1,26 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './UsersList.scss';
 import User from '../User/User';
+import {users} from '../../utils/constants';
 
 const UsersList = () => {
+  const [userList, setUserList] = useState([]);
+
+  useEffect(() => {
+    setUserList(users);
+  }, []);
+
   return (
     <div className='user-list'>
-      <User />
-      <User />
-      <User />
-      <User />
+      {userList.map((user, index) =>
+        <User
+          key={user.id}
+          index={index}
+          user={user}
+        />
+      )}
     </div>
   );
-};
+}
 
 export default UsersList;

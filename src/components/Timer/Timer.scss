@@ -1,0 +1,43 @@
+@import '../../scss/mixins';
+
+.timer {
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #cca1a1;
+  
+  &_visible {
+    display: flex;
+  }
+}
+
+.timer__time {
+  margin: 0;
+  @include text-style('AGAvalancheC', 14px, 400, 1.25, #c90000);
+}
+
+.timer__hourglass {
+  position: absolute;
+  top: 27px;
+  right: 20px;
+  width: 16px;
+  height: 16px;
+  background: url('../../img/hourglass.svg') center center no-repeat;
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}

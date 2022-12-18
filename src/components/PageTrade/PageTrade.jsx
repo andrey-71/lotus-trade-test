@@ -3,6 +3,7 @@ import './PageTrade.scss';
 import Trade from '../Trade/Trade';
 
 const PageTrade = () => {
+
   return (
     <div className='page-trade'>
       <p className='page-trade__notice'>

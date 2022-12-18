@@ -1,22 +1,26 @@
 import React from 'react';
 import './User.scss';
+import Timer from '../Timer/Timer';
 
-const User = () => {
+const User = ({ index, user }) => {
+
   return (
     <div className='user'>
       <ul className='user__items'>
-        <li className='user__item user__item_title'>Место для таймера</li>
         <li className='user__item user__item_title'>
-          <span>Участник №1</span>
-          <span>ООО "Компания"</span>
+          <Timer index={index} />
         </li>
-        <li className='user__item'>-</li>
-        <li className='user__item'>80</li>
-        <li className='user__item'>24</li>
-        <li className='user__item'>30%</li>
+        <li className='user__item user__item_title'>
+          <span>Участник {index+1}</span>
+          <span>{user.name}</span>
+        </li>
+        <li className='user__item'>{user.quality ? user.quality : '-'}</li>
+        <li className='user__item'>{user.productionDays}</li>
+        <li className='user__item'>{user.warrantyMonths}</li>
+        <li className='user__item'>{user.payPercentage}%</li>
         <li className='user__item_price'>
           <span className='user__item-price user__item-price'>
-            3700000 руб.
+            {user.price} руб.
           </span>
           <span className='user__item-price user__item-price_type_discount'>
             -250000 руб.

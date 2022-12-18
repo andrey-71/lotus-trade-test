@@ -7,7 +7,7 @@ const Trade = () => {
 
   return (
     <div className='trade'>
-      <TradeHeader />
+      <TradeHeader/>
       <UsersList />
     </div>
   );
