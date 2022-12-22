@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180b5be8-6ace-4213-ae57-741eff4dea38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lotos-trade-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lotos-trade-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/TimerContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PageTrade/PageTrade.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageTrade/PageTrade.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Timer/Timer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timer/Timer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Title/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Title/Title.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Trade/Trade.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Trade/Trade.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/User/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/User.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UsersList/UsersList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UsersList/UsersList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,7 @@
       <workItem from="1671520827843" duration="598000" />
       <workItem from="1671534317390" duration="17012000" />
       <workItem from="1671619393834" duration="13755000" />
-      <workItem from="1671701764883" duration="889000" />
+      <workItem from="1671701764883" duration="7638000" />
     </task>
     <servers />
   </component>

@@ -3,14 +3,14 @@ import './Trade.scss';
 import TradeHeader from '../TradeHeader/TradeHeader';
 import UsersList from '../UsersList/UsersList';
 
-const Trade = ({ time, timerList }) => {
+const Trade = React.memo(() => {
 
   return (
     <div className='trade'>
       <TradeHeader/>
-      <UsersList time={time} timerList={timerList} />
+      <UsersList />
     </div>
   );
-};
+});
 
 export default Trade;

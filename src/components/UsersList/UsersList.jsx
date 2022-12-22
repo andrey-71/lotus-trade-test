@@ -3,7 +3,7 @@ import './UsersList.scss';
 import User from '../User/User';
 import { users } from '../../utils/constants';
 
-const UsersList = ({ time, timerList }) => {
+const UsersList = () => {
   const [userList, setUserList] = useState([]);
 
   useEffect(() => {
@@ -15,14 +15,12 @@ const UsersList = ({ time, timerList }) => {
       {userList.map((user, index) =>
         <User
           key={user.id}
-          index={index}
           user={user}
-          time={time}
-          timer={timerList[index]}
+          index={index}
         />
       )}
     </div>
   );
-}
+};
 
 export default UsersList;

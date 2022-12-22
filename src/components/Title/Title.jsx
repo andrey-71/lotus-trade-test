@@ -1,7 +1,8 @@
 import React from 'react';
 import './Title.scss';
 
-const Title = () => {
+const Title = React.memo(() => {
+
   return (
     <div className='title'>
       <h1 className='title__text'>
@@ -12,6 +13,6 @@ const Title = () => {
       </h1>
     </div>
   );
-};
+});
 
 export default Title;

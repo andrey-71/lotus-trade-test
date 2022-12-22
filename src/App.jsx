@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { TimerContext } from './contexts/TimerContext';
 import Title from './components/Title/Title';
 import PageTrade from './components/PageTrade/PageTrade';
 import api from './utils/api';
@@ -7,7 +8,6 @@ import { serverUrl, users } from './utils/constants';
 function App() {
   const [timerList, setTimerList] = useState(users.map(() => false));
   const [timerTime, setTimerTime] = useState(0);
-  console.log(timerTime);
 
   useEffect(() => {
     api.startTimer(timerList.length)
@@ -22,7 +22,7 @@ function App() {
       if(data?.time > 0) {
         timeConversion(data.time, data.oneTime);
       } else {
-        setTimerList(users.map(() => false))
+        setTimerList(users.map(() => false));
         eventSource.close();
       }
     }
@@ -50,10 +50,12 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <Title />
-      <PageTrade time={timerTime} timerList={timerList}/>
-    </div>
+    <TimerContext.Provider value={{list: timerList, time: timerTime}}>
+      <div className="app">
+        <Title />
+        <PageTrade />
+      </div>
+    </TimerContext.Provider>
   );
 }
 
