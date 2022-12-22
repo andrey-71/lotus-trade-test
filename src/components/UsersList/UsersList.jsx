@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import './UsersList.scss';
 import User from '../User/User';
-import {users} from '../../utils/constants';
+import { users } from '../../utils/constants';
 
-const UsersList = () => {
+const UsersList = ({ time, timerList }) => {
   const [userList, setUserList] = useState([]);
 
   useEffect(() => {
@@ -17,6 +17,8 @@ const UsersList = () => {
           key={user.id}
           index={index}
           user={user}
+          time={time}
+          timer={timerList[index]}
         />
       )}
     </div>

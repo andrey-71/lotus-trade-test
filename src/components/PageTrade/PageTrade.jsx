@@ -2,7 +2,7 @@ import React from 'react';
 import './PageTrade.scss';
 import Trade from '../Trade/Trade';
 
-const PageTrade = () => {
+const PageTrade = ({ time, timerList }) => {
 
   return (
     <div className='page-trade'>
@@ -10,7 +10,7 @@ const PageTrade = () => {
         Уважаемые участники, во время вашего хода вы можете
         изменить параметры торгов, указанных в таблице:
       </p>
-      <Trade />
+      <Trade time={time} timerList={timerList} />
     </div>
   );
 };

@@ -2,13 +2,13 @@ import React from 'react';
 import './User.scss';
 import Timer from '../Timer/Timer';
 
-const User = ({ index, user }) => {
+const User = ({ index, user, time, timer }) => {
 
   return (
     <div className='user'>
       <ul className='user__items'>
         <li className='user__item user__item_title'>
-          <Timer index={index} />
+          <Timer time={time} timer={timer} />
         </li>
         <li className='user__item user__item_title'>
           <span>Участник {index+1}</span>

@@ -3,12 +3,12 @@ import './Trade.scss';
 import TradeHeader from '../TradeHeader/TradeHeader';
 import UsersList from '../UsersList/UsersList';
 
-const Trade = () => {
+const Trade = ({ time, timerList }) => {
 
   return (
     <div className='trade'>
       <TradeHeader/>
-      <UsersList />
+      <UsersList time={time} timerList={timerList} />
     </div>
   );
 };

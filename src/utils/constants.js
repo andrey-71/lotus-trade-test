@@ -37,4 +37,4 @@ export const users = [
   },
 ];
 
-export const time = 10000;
+export const serverUrl = 'http://localhost:3300';
