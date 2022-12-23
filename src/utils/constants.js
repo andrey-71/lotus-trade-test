@@ -37,4 +37,5 @@ export const users = [
   },
 ];
 
-export const serverUrl = 'http://localhost:3300';
+export const serverUrl = 'https://api.lotus.test-online/online/api';
+// export const serverUrl = 'http://localhost:3300';
